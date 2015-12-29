@@ -1,0 +1,62 @@
+<div ng-include="'views/header.html'"></div>
+
+<style>
+    .items-wrapper{
+        margin-top: 100px;
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+</style>
+
+<div class="items-wrapper" ng-controller="AnmeldungCtrl">
+
+            <div class="panel" >
+                <div class="panel-body">
+
+                    <h3 style="margin-top: 10px !important;">
+                        Hier kannst du dich für die Hochzeit anmelden.
+                    </h3>
+                    <div class="form-group">
+                        <label for="inputAnzahl">Anzahl Personen</label>
+                        <input type="number" class="form-control" ng-model="anzahlPersonen" id="inputAnzahl" placeholder="Anzahl">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputVorname">Vorname</label>
+                        <input type="text" class="form-control" ng-model="vorname" id="inputVorname" placeholder="Vorname">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputNachname">Nachname</label>
+                        <input type="text" class="form-control" ng-model="nachname" id="inputNachname" placeholder="Nachname">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" ng-model="email" id="inputEmail" placeholder="Email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="inputBemerkung">Bemerkung / Zeitreservation</label>
+                        <textarea class="form-control" rows="5" ng-model="bemerkung" id="inputBemerkung" style="resize: none;"
+                                  placeholder="Bemerkungen oder Infos zu Zeitreservation für ein Spiel am Abend"></textarea>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" ng-model="vegiMenu"> Vegitarisches Menü
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" ng-model="kannNicht"> Kann leider nicht kommen
+                        </label>
+                    </div>
+
+
+                    <button class="btn btn-success btn-lg btn-block"
+                            ng-click="anmelden(anzahlPersonen, vorname, nachname, email, vegiMenu, kannNicht, bemerkung )">Anmelden
+                    </button>
+
+                </div>
+            </div>
+
+</div>

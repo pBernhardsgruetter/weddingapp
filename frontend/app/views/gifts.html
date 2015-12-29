@@ -1,0 +1,120 @@
+<div ng-include="'views/header.html'"></div>
+
+<style>
+    .items-wrapper{
+        margin-top: 100px;
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        background: transparent;
+    }
+    .overlay{
+        top: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        left: 30%;
+        width: 800px;
+        z-index: 100;
+        position: fixed;
+        font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+</style>
+
+<div class="items-wrapper" ng-controller="GiftCtrl">
+
+    <div class="masterList">
+
+        <form name="userForm" class="overlay" ng-if="selectedItem">
+            <div class="panel panel-default">
+                <div class="panel-heading" style="height: 50px !important;">
+                    <h3 class="panel-title pull-left" style="margin-top: 5px !important;">{{selectedItem.title}}</h3>
+                    <button  ng-click="closeOverlay()" type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>
+                                {{selectedItem.description}}
+                            </h4>
+
+                            <p>
+                                Bitte fülle die unten stehenden Felder aus, damit wir wissen, wem wir das grosszügige Geschenk zu verdanken haben.
+                            </p>
+
+                            <div class="form-group" ng-class="{ 'has-error' : userForm.vorname.$invalid && !userForm.vorname.$pristine }">
+                                <label>Vorname</label>
+                                <input type="text" name="vorname" class="form-control" ng-model="vorname" required placeholder="Vorname">
+                                <p ng-show="userForm.name.$invalid && !userForm.vorname.$pristine" class="help-block">Bitte gib deinen Vornamen ein.</p>
+                            </div>
+
+                            <div class="form-group" ng-class="{ 'has-error' : userForm.name.$invalid && !userForm.name.$pristine }">
+                                <label>Nachname</label>
+                                <input type="text" name="name" class="form-control" ng-model="nachname" required placeholder="Nachname">
+                                <p ng-show="userForm.name.$invalid && !userForm.name.$pristine" class="help-block">Bitte gib deinen Nachnamen ein.</p>
+                            </div>
+
+                            <!-- EMAIL -->
+                            <div class="form-group" ng-class="{ 'has-error' : userForm.email.$invalid && !userForm.email.$pristine }">
+                                <label>Email</label>
+                                <input type="email" name="email" class="form-control" ng-model="email" placeholder="Email">
+                                <p ng-show="userForm.email.$invalid && !userForm.email.$pristine" class="help-block">Bitte gültige Emailadresse eingeben.</p>
+                            </div>
+
+                            <div class="btn-group form-group" role="group" aria-label="..." style="margin-left: auto; margin-right: auto;">
+                                <!--<button type="button" class="btn btn-default" ng-click="setSchenkungsart('Bargeld')">Bargeld</button>-->
+                                <!--<button type="button" class="btn btn-default" ng-click="setSchenkungsart('Ueberweisung')">Überweisung</button>-->
+                                <label>Schenkungsart</label>
+                                <select ng-model='form.type' style="width: 370px;" class="form-control" required ng-options='option.value as option.name for option in typeOptions'></select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div style="vertical-align: middle; height: 450px; width: 1px; background: #999999; float: left; margin-left: -15px;"/>
+                            <h5>Kontoinformationen</h5>
+
+                            <div style="margin-bottom: 30px;margin-top: 30px;">
+                                <p>Stefan Frei und Tamara Rechsteiner</p>
+                                <p>Bahnhofstrasse 37</p>
+                                <p>9200 Gossau</p>
+                            </div>
+
+                            <p>Raiffeisenbank Gossau- Niederwil </p>
+                            <p>CH22 8127 1000 0553 7228 8</p>
+                        </div>
+                    </div>
+
+
+
+                    <!-- SUBMIT BUTTON -->
+                    <button type="submit" class="btn btn-success btn-lg btn-block" ng-disabled="userForm.$invalid" ng-click="donate(vorname, nachname, email, schenkungsart)">Schenken</button>
+                </div>
+            </div>
+        </form>
+        <div ng-repeat="category in giftItems  track by $index">
+            <h1 style="clear:both;">{{category.description}}</h1>
+            <div ng-repeat="gift in category.title  track by $index" ng-click="selected(gift)">
+                <button class="gift-item pristinaFont" ng-class="gift.selected ? 'active' : ''" ng-if="gift.anzahl > 0">
+                    <h4>{{gift.anzahl}} Stück</h4>
+                    <img ng-src="{{getImagePath(gift.picture)}}" class="img-circle" style="height: 200px; width: 200px;"/>
+
+                    <h3 style="padding: 0px">{{gift.title}}</h3>
+                    <p style="font-size: 25px !important;">{{gift.description}}</p>
+                    <h3>CHF   {{gift.totalAmount}}.-</h3>
+                </button>
+            </div>
+        </div>
+        <!--<div ng-repeat="gift in giftItems" ng-click="selected($index)">-->
+            <!--<button class="gift-item pristinaFont" ng-class="gift.selected ? 'active' : ''">-->
+                <!--<h4>{{gift.anzahl}} Stück</h4>-->
+                <!--<img ng-src="{{getImagePath(gift.picture)}}" class="img-circle" style="height: 200px; width: 200px;"/>-->
+
+                <!--<h3 style="padding: 0px">{{gift.title}}</h3>-->
+                <!--<p style="font-size: 25px !important;">{{gift.description}}</p>-->
+                <!--<h3>CHF   {{gift.totalAmount}}.-</h3>-->
+            <!--</button>-->
+        <!--</div>-->
+        </div>
+
+    </div>
+
+</div>
+<!--<footer></footer>-->

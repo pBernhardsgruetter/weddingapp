@@ -1,0 +1,19 @@
+{
+  "name": "pcap-frontend",
+  "version": "2.0.4",
+  "dependencies": {
+    "bootbox": "^4.4.0"
+  },
+  "scripts": {
+    "prepublish": "node insertVersion.js"
+  },
+  "repository": {},
+  "devDependencies": {
+    "karma-jasmine": "*",
+    "karma-phantomjs-launcher": "*",
+    "po2json": "^0.3.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

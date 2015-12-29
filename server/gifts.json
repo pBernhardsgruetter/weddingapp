@@ -1,0 +1,428 @@
+{
+    "__v": 0,
+    "_id": {
+        "$oid": "56645168a147373c0160822c"
+    },
+    "anzahl": 2,
+    "bereitsGeschenkt": false,
+    "category": "Flitterwochen",
+    "description": "Anteil an Flug",
+    "geschenktVon": [],
+    "picture": "flug.png",
+    "schenkungsart": "",
+    "title": "Flug Zürich - Dubai",
+    "totalAmount": "50",
+    "updated_at": {
+        "$date": 1449436452145
+    }
+} {
+    "_id": {
+        "$oid": "566468c0b831dd029409e17e"
+    },
+    "bereitsGeschenkt": false,
+    "description": "Anteil an Flug",
+    "category": "Flitterwochen",
+    "geschenktVon": [],
+    "picture": "flug.png",
+    "schenkungsart": "",
+    "title": "Flug Dubai - Mauritius",
+    "totalAmount": "10",
+    "anzahl": 3,
+    "updated_at": {
+        "$date": 1449436476364
+    }
+} {
+    "_id": {
+        "$oid": "56647d6ab831dd029409e180"
+    },
+    "bereitsGeschenkt": false,
+    "description": "Anteil an Flug",
+    "category": "Flitterwochen",
+    "geschenktVon": [],
+    "picture": "flug.png",
+    "schenkungsart": "",
+    "title": "Flug Dubai - Mauritius",
+    "totalAmount": "20",
+    "anzahl": 2,
+    "updated_at": {
+        "$date": 1449435954892
+    }
+} {
+    "_id": {
+        "$oid": "56647d72b831dd029409e183"
+    },
+    "anzahl": 2,
+    "bereitsGeschenkt": false,
+    "category": "Flitterwochen",
+    "description": "Anteil an Flug",
+    "geschenktVon": [{
+        "email": "paedi88@gmail.com",
+        "nachname": "Bernhardsgruetter",
+        "vorname": "Patrick",
+        "_id": {
+            "$oid": "56742bc528d87b60154c9d51"
+        }
+    }],
+    "picture": "flug.png",
+    "schenkungsart": "Ueberweisung",
+    "title": "Flug Zürich - Dubai",
+    "totalAmount": "100",
+    "updated_at": {
+        "$date": 1449434526398
+    }
+} {
+    "_id": {
+        "$oid": "56647d75b831dd029409e184"
+    },
+    "anzahl": 2,
+    "bereitsGeschenkt": false,
+    "category": "Flitterwochen",
+    "description": "Anteil an Flug",
+    "geschenktVon": [],
+    "picture": "flug.png",
+    "schenkungsart": "",
+    "title": "Flug Zürich - Dubai",
+    "totalAmount": "20",
+    "updated_at": {
+        "$date": 1449436720073
+    }
+} {
+    "_id": {
+        "$oid": "56688e8a37380ab317a04b18"
+    },
+    "bereitsGeschenkt": false,
+    "description": "Anteil an Flug",
+    "category": "Flitterwochen",
+    "geschenktVon": [],
+    "picture": "flug.png",
+    "schenkungsart": "",
+    "title": "Flug Dubai - Mauritius",
+    "totalAmount": "40",
+    "anzahl": 3
+} {
+    "_id": {
+        "$oid": "56688e9b37380ab317a04b19"
+    },
+    "bereitsGeschenkt": false,
+    "description": "Anteil an Flug",
+    "category": "Flitterwochen",
+    "geschenktVon": [],
+    "picture": "flug.png",
+    "schenkungsart": "",
+    "title": "Flug Dubai - Mauritius",
+    "totalAmount": "60",
+    "anzahl": 3
+} {
+    "_id": {
+        "$oid": "56688ee537380ab317a04b1a"
+    },
+    "bereitsGeschenkt": false,
+    "description": "Anteil an Flug",
+    "category": "Flitterwochen",
+    "geschenktVon": [],
+    "picture": "flug.png",
+    "schenkungsart": "",
+    "title": "Flug Dubai - Mauritius",
+    "totalAmount": "50",
+    "anzahl": 4
+} {
+    "_id": {
+        "$oid": "56688eee37380ab317a04b1b"
+    },
+    "bereitsGeschenkt": false,
+    "description": "Anteil an Flug",
+    "category": "Flitterwochen",
+    "geschenktVon": [],
+    "picture": "flug.png",
+    "schenkungsart": "",
+    "title": "Flug Dubai - Mauritius",
+    "totalAmount": "170",
+    "anzahl": 1
+} {
+    "_id": {
+        "$oid": "56688f4c37380ab317a04b1c"
+    },
+    "bereitsGeschenkt": false,
+    "description": "Anteil an Flug",
+    "category": "Flitterwochen",
+    "geschenktVon": [],
+    "picture": "flug.png",
+    "schenkungsart": "",
+    "title": "Flug Zürich - Dubai",
+    "totalAmount": "160",
+    "anzahl": 2
+} {
+    "_id": {
+        "$oid": "5668904f37380ab317a04b1d"
+    },
+    "anzahl": 3,
+    "bereitsGeschenkt": false,
+    "category": "Flitterwochen",
+    "description": "",
+    "geschenktVon": [{
+        "email": "paedi88@gmail.com",
+        "nachname": "Bernhardsgruetter",
+        "vorname": "Patrick",
+        "_id": {
+            "$oid": "5668a8a9134de0601e97e8be"
+        }
+    }],
+    "picture": "hotelzimmer.png",
+    "schenkungsart": "",
+    "title": "Hotelzimmer Mauritius",
+    "totalAmount": "300"
+} {
+    "_id": {
+        "$oid": "5668906b37380ab317a04b1e"
+    },
+    "bereitsGeschenkt": false,
+    "description": "",
+    "category": "Flitterwochen",
+    "geschenktVon": [],
+    "picture": "hotelzimmer.png",
+    "schenkungsart": "",
+    "title": "Hotelzimmer Mauritius",
+    "totalAmount": "200",
+    "anzahl": 3
+} {
+    "_id": {
+        "$oid": "5668916b37380ab317a04b1f"
+    },
+    "bereitsGeschenkt": false,
+    "description": "Vom Flughafen zum Hotel",
+    "category": "Flitterwochen",
+    "geschenktVon": [],
+    "picture": "transfer.png",
+    "schenkungsart": "",
+    "title": "Bustransfer in Mauritius",
+    "totalAmount": "300",
+    "anzahl": 3
+} {
+    "_id": {
+        "$oid": "566891e037380ab317a04b20"
+    },
+    "bereitsGeschenkt": false,
+    "description": "Vom Flughafen zum Hotel",
+    "category": "Flitterwochen",
+    "geschenktVon": [],
+    "picture": "transfer.png",
+    "schenkungsart": "",
+    "title": "Bustransfer in Dubai",
+    "totalAmount": "30",
+    "anzahl": 5
+} {
+    "_id": {
+        "$oid": "5668921e37380ab317a04b21"
+    },
+    "bereitsGeschenkt": false,
+    "description": "Je zwei Übernachtungen",
+    "category": "Flitterwochen",
+    "geschenktVon": [],
+    "picture": "hotelzimmer.png",
+    "schenkungsart": "",
+    "title": "Hotel in Dubai",
+    "totalAmount": "300",
+    "anzahl": 2
+} {
+    "_id": {
+        "$oid": "566892ed37380ab317a04b22"
+    },
+    "bereitsGeschenkt": false,
+    "description": "Pro Person inkl. Anfahrt",
+    "category": "Ausflüge",
+    "geschenktVon": [],
+    "picture": "pilatus.png",
+    "schenkungsart": "",
+    "title": "Goldene Rundfahrt Pilatus",
+    "totalAmount": "150",
+    "anzahl": 2
+} {
+    "_id": {
+        "$oid": "5668935137380ab317a04b23"
+    },
+    "bereitsGeschenkt": false,
+    "description": "Antiel pro Person inkl. Anfahrt",
+    "category": "Ausflüge",
+    "geschenktVon": [],
+    "picture": "jungfraujoch.png",
+    "schenkungsart": "",
+    "title": "Ausflug Jungfraujoch",
+    "totalAmount": "125",
+    "anzahl": 4
+} {
+    "_id": {
+        "$oid": "5668939437380ab317a04b24"
+    },
+    "bereitsGeschenkt": false,
+    "description": "Anteil Übernachtung",
+    "category": "Ausflüge",
+    "geschenktVon": [],
+    "picture": "jungfraujoch.png",
+    "schenkungsart": "",
+    "title": "Hotel Jungfraujoch",
+    "totalAmount": "60",
+    "anzahl": 4
+} {
+    "_id": {
+        "$oid": "566893e337380ab317a04b25"
+    },
+    "bereitsGeschenkt": false,
+    "description": "Ein Andenken an das Jungfraujoch",
+    "category": "Ausflüge",
+    "geschenktVon": [],
+    "picture": "jungfraujoch.png",
+    "schenkungsart": "",
+    "title": "Souvenir Jungfraujoch",
+    "totalAmount": "10",
+    "anzahl": 5
+} {
+    "_id": {
+        "$oid": "566894af37380ab317a04b26"
+    },
+    "bereitsGeschenkt": false,
+    "category": "Küche",
+    "title": "Kenwood Zubehör",
+    "description": "Kochbuch",
+    "geschenktVon": [],
+    "picture": "kenwood_kochbuch.png",
+    "schenkungsart": "",
+    "totalAmount": "50",
+    "anzahl": 1
+} {
+    "_id": {
+        "$oid": "566894d837380ab317a04b27"
+    },
+    "bereitsGeschenkt": false,
+    "category": "Küche",
+    "title": "Kenwood Zubehör",
+    "description": "Mixer AT358",
+    "geschenktVon": [],
+    "picture": "kenwood_mixer.png",
+    "schenkungsart": "",
+    "totalAmount": "150",
+    "anzahl": 1
+} {
+    "_id": {
+        "$oid": "566894f337380ab317a04b28"
+    },
+    "bereitsGeschenkt": false,
+    "category": "Küche",
+    "title": "Kenwood Zubehör",
+    "description": "Gemüseschneider AT140",
+    "geschenktVon": [],
+    "picture": "kenwood_raffel.png",
+    "schenkungsart": "",
+    "totalAmount": "200",
+    "anzahl": 1
+} {
+    "_id": {
+        "$oid": "566895b437380ab317a04b29"
+    },
+    "bereitsGeschenkt": false,
+    "category": "Küche",
+    "title": "Kenwood Zubehör",
+    "description": "Maschinen Geschirr 37575",
+    "geschenktVon": [],
+    "picture": "kenwood_geschirr.png",
+    "schenkungsart": "",
+    "totalAmount": "250",
+    "anzahl": 1
+} {
+    "_id": {
+        "$oid": "566895dd37380ab317a04b2a"
+    },
+    "bereitsGeschenkt": false,
+    "category": "Küche",
+    "title": "Kenwood Zubehör",
+    "description": "Glace Gerät 957A",
+    "geschenktVon": [],
+    "picture": "kenwood_glace.png",
+    "schenkungsart": "",
+    "totalAmount": "100",
+    "anzahl": 1
+} {
+    "_id": {
+        "$oid": "566896ba37380ab317a04b2b"
+    },
+    "bereitsGeschenkt": false,
+    "description": "Anteil an Rückflug",
+    "category": "Flitterwochen",
+    "geschenktVon": [],
+    "picture": "flug.png",
+    "schenkungsart": "",
+    "title": "Flug Mauritius - Dubai",
+    "totalAmount": "70",
+    "anzahl": 3
+} {
+    "_id": {
+        "$oid": "566896c537380ab317a04b2c"
+    },
+    "bereitsGeschenkt": false,
+    "description": "Anteil an Rückflug",
+    "category": "Flitterwochen",
+    "geschenktVon": [],
+    "picture": "flug.png",
+    "schenkungsart": "",
+    "title": "Flug Mauritius - Dubai",
+    "totalAmount": "80",
+    "anzahl": 2
+} {
+    "_id": {
+        "$oid": "5668972237380ab317a04b2d"
+    },
+    "bereitsGeschenkt": false,
+    "description": "Rückflug für eine Person",
+    "category": "Flitterwochen",
+    "geschenktVon": [],
+    "picture": "flug.png",
+    "schenkungsart": "",
+    "title": "Flug Mauritius - Dubai",
+    "totalAmount": "400",
+    "anzahl": 1
+} {
+    "_id": {
+        "$oid": "5668976437380ab317a04b2e"
+    },
+    "bereitsGeschenkt": false,
+    "description": "Anteil an Rückflug",
+    "category": "Flitterwochen",
+    "geschenktVon": [],
+    "picture": "flug.png",
+    "schenkungsart": "",
+    "title": "Flug Dubai - Zürich",
+    "totalAmount": "90",
+    "anzahl": 3
+} {
+    "_id": {
+        "$oid": "5668977e37380ab317a04b2f"
+    },
+    "bereitsGeschenkt": false,
+    "description": "Anteil an Rückflug",
+    "category": "Flitterwochen",
+    "geschenktVon": [],
+    "picture": "flug.png",
+    "schenkungsart": "",
+    "title": "Flug Dubai - Zürich",
+    "totalAmount": "500",
+    "anzahl": 1
+} {
+    "_id": {
+        "$oid": "566af49737380ab317a04b30"
+    },
+    "anzahl": 9,
+    "bereitsGeschenkt": false,
+    "category": "Testkategorie",
+    "description": "Testeintrag",
+    "geschenktVon": [{
+        "email": "paedi88@gmail.com",
+        "nachname": "Bernhardsgruetter",
+        "vorname": "Patrick",
+        "_id": {
+            "$oid": "5674311d28d87b60154c9d52"
+        }
+    }],
+    "picture": "Test.png",
+    "schenkungsart": "Ueberweisung",
+    "title": "Testeintrag",
+    "totalAmount": "50"
+}
